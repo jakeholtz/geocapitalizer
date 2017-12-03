@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { AppCountryComponent } from './app.country.component.js';
+import { AppCountryComponent } from './app.country.component.ts';
 
 
 @NgModule({
