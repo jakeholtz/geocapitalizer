@@ -1,0 +1,7 @@
+
+  <h3><em>There are {{countries.length}} countries in the Middle East with a total population of {{population() | number}}</em></h3>
+  <ul>
+    <li *ngFor="let country of countries">
+      <p><strong>{{country.name | uppercase}}</strong>: {{country.capital}} — (<em>Population: {{country.population | number}})</em></p>
+    </li>
+  </ul>
